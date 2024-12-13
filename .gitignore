@@ -1,16 +1,27 @@
-# Ignore Play! working directory #
-bin/
-/db
-.eclipse
-/lib/
-/logs/
-/modules
-/project/project
-/project/target
-/target
-tmp/
-test-result
-server.pid
-*.eml
-/dist/
-.cache
+# تبعيات Node.js
+/node_modules
+
+# ناتج البناء
+/.next
+/out
+
+# ملفات السجل
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# متغيرات البيئة
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# مجلدات وملفات المحررات
+/.vscode
+/.idea
+*.sublime-project
+*.sublime-workspace
+
+# ملفات خاصة بالنظام
+.DS_Store
+Thumbs.db
